@@ -290,3 +290,48 @@ body {
 strong {
   font-weight: 500;
 }
+
+.glitch {
+  animation: glitch 5s linear infinite;
+}
+
+@keyframes glitch {
+  0% {
+    opacity: 1;
+    color: grey;
+    font-family: monospace;
+  }
+  10% {
+    opacity: 0.95;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.45;
+    color: greenyellow;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.95;
+    color: purple;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.45;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.95;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  100% {
+    opacity: 1;
+  }
+}
